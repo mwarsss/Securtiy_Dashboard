@@ -8,6 +8,11 @@
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "AUTO"
+    }
+  },
   "color": "#F5D1D1",
   "icon": "single-person",
   "unpublishedAppLayout": {

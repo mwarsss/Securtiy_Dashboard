@@ -13,16 +13,18 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 690,
+          "bottomRow": 571.984375,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 79,
+          "version": 80,
           "minHeight": 1292,
+          "useAutoLayout": true,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
@@ -39,8 +41,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 5,
-              "bottomRow": 15,
+              "topRow": 0,
+              "bottomRow": 9,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -49,7 +51,7 @@
               "animateLoading": true,
               "parentColumnSpace": 10.671875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "boxShadow"
@@ -61,13 +63,14 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 100,
+                  "bottomRow": 90,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
                   "minHeight": 100,
                   "mobileRightColumn": 256.125,
+                  "useAutoLayout": true,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -83,8 +86,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 2,
-                      "bottomRow": 8,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -94,7 +97,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 8.525146484375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
+                      "leftColumn": 3.552713678800501E-15,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -110,8 +113,9 @@
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "text": "Customer Communications Portal",
                       "key": "zxtb8kkpyz",
+                      "flexVerticalAlignment": "end",
                       "isDeprecated": false,
-                      "rightColumn": 29,
+                      "rightColumn": 42.867924528301884,
                       "textAlign": "CENTER",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "1i340hr3r0",
@@ -129,14 +133,17 @@
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileLeftColumn": 3,
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 6,
+                      "originalBottomRow": 8,
                       "fontSize": "1.25rem",
+                      "alignment": "center",
                       "minDynamicHeight": 4
                     },
                     {
+                      "mobileWidthInPercentage": 0.18369140625,
                       "boxShadow": "none",
                       "mobileBottomRow": 13,
                       "widgetName": "Image1",
+                      "widthInPercentage": 0.18369140625,
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.30c8cbd442cce232b01ba2d434c53a53.svg",
                       "topRow": 0,
@@ -148,7 +155,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 8.525146484375,
                       "imageShape": "RECTANGLE",
-                      "leftColumn": 50,
+                      "leftColumn": 42.867924528301884,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -156,9 +163,10 @@
                       ],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "cs0uv8ot2p",
+                      "flexVerticalAlignment": "end",
                       "image": "",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 64,
                       "objectFit": "cover",
                       "widgetId": "v9umqdhgyt",
                       "isVisible": true,
@@ -169,11 +177,14 @@
                       "mobileTopRow": 1,
                       "maxZoomLevel": 1,
                       "enableDownload": false,
+                      "responsiveBehavior": "hug",
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileLeftColumn": 48,
-                      "enableRotation": false
+                      "enableRotation": false,
+                      "alignment": "end"
                     }
                   ],
+                  "positioning": "vertical",
                   "key": "1at0sb8q3t",
                   "isDeprecated": false,
                   "rightColumn": 256.125,
@@ -189,7 +200,20 @@
                   "mobileTopRow": 0,
                   "responsiveBehavior": "fill",
                   "mobileLeftColumn": 0,
-                  "flexLayers": []
+                  "flexLayers": [
+                    {
+                      "children": [
+                        {
+                          "id": "1i340hr3r0",
+                          "align": "center"
+                        },
+                        {
+                          "id": "v9umqdhgyt",
+                          "align": "end"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "borderWidth": "1",
@@ -214,6 +238,7 @@
               "mobileLeftColumn": 16,
               "maxDynamicHeight": 9000,
               "originalBottomRow": 15,
+              "alignment": "end",
               "minDynamicHeight": 10
             },
             {
@@ -229,8 +254,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 15,
-              "bottomRow": 69,
+              "topRow": 10.2,
+              "bottomRow": 57.1984375,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -239,7 +264,7 @@
               "animateLoading": true,
               "parentColumnSpace": 10.671875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -247,13 +272,14 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 540,
+                  "bottomRow": 469.98437499999994,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 100,
+                  "minHeight": 450,
                   "mobileRightColumn": 256.125,
+                  "useAutoLayout": true,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
@@ -268,8 +294,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 1,
-                      "bottomRow": 5,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -279,7 +305,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 8.3583984375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -295,10 +321,11 @@
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "text": "Customer Data",
                       "key": "zxtb8kkpyz",
+                      "flexVerticalAlignment": "end",
                       "isDeprecated": false,
-                      "rightColumn": 15,
+                      "rightColumn": 64,
                       "textAlign": "LEFT",
-                      "dynamicHeight": "FIXED",
+                      "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "588ciq9vci",
                       "minWidth": 450,
                       "isVisible": true,
@@ -314,6 +341,80 @@
                       "mobileLeftColumn": 2,
                       "maxDynamicHeight": 9000,
                       "fontSize": "1.25rem",
+                      "alignment": "start",
+                      "minDynamicHeight": 4
+                    },
+                    {
+                      "boxShadow": "none",
+                      "iconSVG": "/static/media/icon.1a5defb3c19b4cac4a27829d1f979e4c.svg",
+                      "labelText": "Label",
+                      "topRow": 5.2,
+                      "labelWidth": 5,
+                      "type": "SELECT_WIDGET",
+                      "serverSideFiltering": false,
+                      "defaultOptionValue": "GREEN",
+                      "animateLoading": true,
+                      "leftColumn": 21.333333333333332,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "options": [
+                        {
+                          "label": "Blue",
+                          "value": "BLUE"
+                        },
+                        {
+                          "label": "Green",
+                          "value": "GREEN"
+                        },
+                        {
+                          "label": "Red",
+                          "value": "RED"
+                        }
+                      ],
+                      "placeholderText": "Select option",
+                      "isDisabled": false,
+                      "flexVerticalAlignment": "end",
+                      "isRequired": false,
+                      "dynamicHeight": "FIXED",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "version": 1,
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "alignment": "center",
+                      "mobileBottomRow": 12,
+                      "widgetName": "Select1",
+                      "isFilterable": true,
+                      "displayName": "Select",
+                      "searchTags": [
+                        "dropdown"
+                      ],
+                      "bottomRow": 11.798437500000002,
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "mobileRightColumn": 38,
+                      "parentColumnSpace": 8.3583984375,
+                      "dynamicTriggerPathList": [],
+                      "labelPosition": "Top",
+                      "key": "j1j9620wck",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 42.66666666666667,
+                      "widgetId": "p80akxt0s5",
+                      "minWidth": 450,
+                      "parentId": "k1qrknmb68",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "mobileTopRow": 5,
+                      "responsiveBehavior": "fill",
+                      "mobileLeftColumn": 18,
+                      "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
                     },
                     {
@@ -326,8 +427,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 8,
-                      "bottomRow": 12,
+                      "topRow": 5.2,
+                      "bottomRow": 9.2,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -337,7 +438,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 8.3583984375,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -353,10 +454,11 @@
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "text": "Order By:",
                       "key": "zxtb8kkpyz",
+                      "flexVerticalAlignment": "end",
                       "isDeprecated": false,
-                      "rightColumn": 19,
+                      "rightColumn": 21.333333333333332,
                       "textAlign": "LEFT",
-                      "dynamicHeight": "FIXED",
+                      "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "6t5nivzaii",
                       "minWidth": 450,
                       "isVisible": true,
@@ -372,32 +474,20 @@
                       "mobileLeftColumn": 2,
                       "maxDynamicHeight": 9000,
                       "fontSize": "1rem",
+                      "alignment": "center",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
-                      "mobileBottomRow": 12,
-                      "widgetName": "Select1",
-                      "isFilterable": true,
-                      "displayName": "Select",
                       "iconSVG": "/static/media/icon.1a5defb3c19b4cac4a27829d1f979e4c.svg",
                       "labelText": "Label",
-                      "searchTags": [
-                        "dropdown"
-                      ],
-                      "topRow": 6,
-                      "bottomRow": 13,
-                      "parentRowSpace": 10,
+                      "topRow": 5.2,
                       "labelWidth": 5,
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
-                      "hideCard": false,
-                      "mobileRightColumn": 38,
                       "defaultOptionValue": "GREEN",
                       "animateLoading": true,
-                      "parentColumnSpace": 8.3583984375,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 22,
+                      "leftColumn": 42.66666666666667,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -406,7 +496,6 @@
                           "key": "borderRadius"
                         }
                       ],
-                      "labelPosition": "Top",
                       "options": [
                         {
                           "label": "Blue",
@@ -423,94 +512,39 @@
                       ],
                       "placeholderText": "Select option",
                       "isDisabled": false,
-                      "key": "j1j9620wck",
-                      "labelTextSize": "0.875rem",
+                      "flexVerticalAlignment": "end",
                       "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 42,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "p80akxt0s5",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "minWidth": 450,
                       "isVisible": true,
                       "version": 1,
-                      "parentId": "k1qrknmb68",
-                      "labelAlignment": "left",
-                      "renderMode": "CANVAS",
                       "isLoading": false,
-                      "mobileTopRow": 5,
-                      "responsiveBehavior": "fill",
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "mobileLeftColumn": 18,
-                      "maxDynamicHeight": 9000,
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "boxShadow": "none",
+                      "alignment": "center",
                       "mobileBottomRow": 12,
                       "widgetName": "Select2",
                       "isFilterable": true,
                       "displayName": "Select",
-                      "iconSVG": "/static/media/icon.1a5defb3c19b4cac4a27829d1f979e4c.svg",
-                      "labelText": "Label",
                       "searchTags": [
                         "dropdown"
                       ],
-                      "topRow": 6,
-                      "bottomRow": 13,
+                      "bottomRow": 11.798437500000002,
                       "parentRowSpace": 10,
-                      "labelWidth": 5,
-                      "type": "SELECT_WIDGET",
-                      "serverSideFiltering": false,
                       "hideCard": false,
                       "mobileRightColumn": 59,
-                      "defaultOptionValue": "GREEN",
-                      "animateLoading": true,
                       "parentColumnSpace": 9.025390625,
-                      "leftColumn": 42,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
                       "labelPosition": "Top",
-                      "options": [
-                        {
-                          "label": "Blue",
-                          "value": "BLUE"
-                        },
-                        {
-                          "label": "Green",
-                          "value": "GREEN"
-                        },
-                        {
-                          "label": "Red",
-                          "value": "RED"
-                        }
-                      ],
-                      "placeholderText": "Select option",
-                      "isDisabled": false,
                       "key": "j1j9620wck",
                       "labelTextSize": "0.875rem",
-                      "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 62,
-                      "dynamicHeight": "FIXED",
+                      "rightColumn": 64,
                       "widgetId": "gwn7oaw1nd",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "minWidth": 450,
-                      "isVisible": true,
-                      "version": 1,
                       "parentId": "k1qrknmb68",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
-                      "isLoading": false,
                       "mobileTopRow": 5,
                       "responsiveBehavior": "fill",
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "mobileLeftColumn": 39,
                       "maxDynamicHeight": 9000,
                       "minDynamicHeight": 4
@@ -520,7 +554,7 @@
                       "borderColor": "#E0DEDE",
                       "isVisibleDownload": true,
                       "iconSVG": "/static/media/icon.24905525921dd6f5ff46d0dd843b9e12.svg",
-                      "topRow": 16,
+                      "topRow": 12.998437500000001,
                       "isSortable": true,
                       "type": "TABLE_WIDGET_V2",
                       "inlineEditingSaveOption": "ROW_LEVEL",
@@ -558,12 +592,29 @@
                         },
                         {
                           "key": "primaryColumns.StudentId.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.EditActions1.saveButtonColor"
+                        },
+                        {
+                          "key": "primaryColumns.EditActions1.saveBorderRadius"
+                        },
+                        {
+                          "key": "primaryColumns.EditActions1.discardBorderRadius"
+                        },
+                        {
+                          "key": "primaryColumns.EditActions1.isSaveDisabled"
+                        },
+                        {
+                          "key": "primaryColumns.EditActions1.isDiscardDisabled"
                         }
                       ],
                       "needsHeightForContent": true,
                       "leftColumn": 0,
                       "delimiter": ",",
                       "defaultSelectedRowIndex": 0,
+                      "showInlineEditingOptionDropdown": true,
+                      "flexVerticalAlignment": "end",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisibleFilters": true,
                       "isVisible": true,
@@ -595,11 +646,12 @@
                         }
                       },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "columnUpdatedAt": 1686509174148,
+                      "columnUpdatedAt": 1686599374666,
                       "originalBottomRow": 107,
                       "defaultSelectedRowIndices": [
                         0
                       ],
+                      "alignment": "start",
                       "mobileBottomRow": 98,
                       "widgetName": "Table2",
                       "defaultPageSize": 0,
@@ -611,11 +663,21 @@
                         "StudentID",
                         "StudentEmail",
                         "StudentId",
-                        "customColumn1"
+                        "EditActions1"
                       ],
-                      "dynamicPropertyPathList": [],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "tableData"
+                        },
+                        {
+                          "key": "primaryColumns.EditActions1.isSaveDisabled"
+                        },
+                        {
+                          "key": "primaryColumns.EditActions1.isDiscardDisabled"
+                        }
+                      ],
                       "displayName": "Table",
-                      "bottomRow": 48,
+                      "bottomRow": 44.998437499999994,
                       "columnWidthMap": {
                         "task": 245,
                         "step": 70,
@@ -646,8 +708,8 @@
                           "enableSort": true,
                           "isVisible": true,
                           "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
+                          "isCellEditable": true,
+                          "isEditable": true,
                           "isCellVisible": true,
                           "isDerived": false,
                           "label": "StudentEmailID",
@@ -676,8 +738,8 @@
                           "enableSort": true,
                           "isVisible": false,
                           "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
+                          "isCellEditable": true,
+                          "isEditable": true,
                           "isCellVisible": true,
                           "isDerived": false,
                           "label": "UserDoNotDisturb",
@@ -706,8 +768,8 @@
                           "enableSort": true,
                           "isVisible": true,
                           "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
+                          "isCellEditable": true,
+                          "isEditable": true,
                           "isCellVisible": true,
                           "isDerived": false,
                           "label": "_id",
@@ -736,8 +798,8 @@
                           "enableSort": true,
                           "isVisible": true,
                           "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
+                          "isCellEditable": true,
+                          "isEditable": true,
                           "isCellVisible": true,
                           "isDerived": false,
                           "label": "StudentName",
@@ -766,8 +828,8 @@
                           "enableSort": true,
                           "isVisible": false,
                           "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
+                          "isCellEditable": true,
+                          "isEditable": true,
                           "isCellVisible": true,
                           "isDerived": false,
                           "label": "StudentID",
@@ -796,8 +858,8 @@
                           "enableSort": true,
                           "isVisible": true,
                           "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
+                          "isCellEditable": true,
+                          "isEditable": true,
                           "isCellVisible": true,
                           "isDerived": false,
                           "label": "StudentEmail",
@@ -826,8 +888,8 @@
                           "enableSort": true,
                           "isVisible": true,
                           "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
+                          "isCellEditable": true,
+                          "isEditable": true,
                           "isCellVisible": true,
                           "isDerived": false,
                           "label": "StudentId",
@@ -838,17 +900,17 @@
                           "validation": {},
                           "cellBackground": ""
                         },
-                        "customColumn1": {
+                        "EditActions1": {
                           "allowCellWrapping": false,
                           "allowSameOptionsInNewRow": true,
-                          "index": 7,
+                          "index": 8,
                           "width": 150,
-                          "originalId": "customColumn1",
-                          "id": "customColumn1",
-                          "alias": "Delete",
+                          "originalId": "EditActions1",
+                          "id": "EditActions1",
+                          "alias": "EditActions1",
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
-                          "columnType": "text",
+                          "columnType": "editActions",
                           "textSize": "1rem",
                           "enableFilter": true,
                           "enableSort": true,
@@ -858,20 +920,30 @@
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": true,
-                          "label": "Delete",
+                          "label": "Save / Discard",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "",
-                          "sticky": "",
+                          "sticky": "right",
                           "validation": {},
                           "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF"
+                          "saveIconAlign": "left",
+                          "discardIconAlign": "left",
+                          "saveActionLabel": "Save",
+                          "discardActionLabel": "Discard",
+                          "saveButtonColor": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+                          "discardButtonColor": "#F22B2B",
+                          "saveBorderRadius": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+                          "discardBorderRadius": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+                          "discardButtonVariant": "TERTIARY",
+                          "isSaveDisabled": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( !Table2.updatedRowIndices.includes(currentIndex)))}}",
+                          "isDiscardDisabled": "{{Table2.processedTableData.map((currentRow, currentIndex) => ( !Table2.updatedRowIndices.includes(currentIndex)))}}"
                         }
                       },
                       "key": "gjwdje098p",
                       "canFreezeColumn": true,
                       "isDeprecated": false,
-                      "rightColumn": 63,
+                      "rightColumn": 64,
                       "textSize": "1rem",
                       "widgetId": "w3agalrucy",
                       "minWidth": 450,
@@ -890,6 +962,7 @@
                       "verticalAlignment": "CENTER"
                     }
                   ],
+                  "positioning": "vertical",
                   "key": "1at0sb8q3t",
                   "isDeprecated": false,
                   "rightColumn": 256.125,
@@ -905,7 +978,40 @@
                   "mobileTopRow": 0,
                   "responsiveBehavior": "fill",
                   "mobileLeftColumn": 0,
-                  "flexLayers": []
+                  "flexLayers": [
+                    {
+                      "children": [
+                        {
+                          "id": "588ciq9vci",
+                          "align": "start"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": "6t5nivzaii",
+                          "align": "center"
+                        },
+                        {
+                          "id": "p80akxt0s5",
+                          "align": "center"
+                        },
+                        {
+                          "id": "gwn7oaw1nd",
+                          "align": "center"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "id": "w3agalrucy",
+                          "align": "start"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "borderWidth": "1",
@@ -914,7 +1020,7 @@
               "backgroundColor": "#93c5fd",
               "isDeprecated": false,
               "rightColumn": 64,
-              "dynamicHeight": "FIXED",
+              "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "mft784s3ft",
               "containerStyle": "card",
               "minWidth": 450,
@@ -930,7 +1036,27 @@
               "mobileLeftColumn": 19,
               "maxDynamicHeight": 9000,
               "originalBottomRow": 69,
+              "alignment": "end",
               "minDynamicHeight": 10
+            }
+          ],
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "uyd4ojjfm4",
+                  "align": "end"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "mft784s3ft",
+                  "align": "end"
+                }
+              ]
             }
           ]
         },
