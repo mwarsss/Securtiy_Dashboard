@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Customervdata",
+    "pageId": "Customer data",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -111,7 +111,7 @@
     "userPermissions": [],
     "createdAt": "2023-06-11T18:11:32Z"
   },
-  "id": "Customervdata_findQuery",
+  "id": "Customer data_findQuery",
   "deleted": false,
   "gitSyncId": "6485d4035ccd0d13e4f8f2fb_64860e545ccd0d13e4f8f3ff"
 }

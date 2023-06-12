@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Customervdata",
+      "id": "Customer data",
       "isDefault": true
+    },
+    {
+      "id": "Send Messages",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,7 +14,7 @@
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
-      "type": "AUTO"
+      "type": "FIXED"
     }
   },
   "color": "#F5D1D1",
